@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'ZenTest'
 gem 'rails', '3.2.11'
 
 # Bundle edge Rails instead:
@@ -15,6 +16,7 @@ end
 group :test do
   gem 'rspec', '2.12.0'
   gem 'webrat', '0.7.3'
+  gem 'spork', '0.9.2'
 end
 
 # Gems used only for assets and not required
